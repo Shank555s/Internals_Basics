@@ -1,0 +1,7 @@
+{
+  "registered_model_name": "ballotcast-voter-turnout-pct-predictor",
+  "version": 1,
+  "run_id": "f9ca5af6688b466bb8cfe5dbe90140ae",
+  "source_metric": "rmse",
+  "source_metric_value": 4.3307
+}

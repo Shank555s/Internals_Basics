@@ -1,0 +1,23 @@
+{
+  "total_predictions": 50,
+  "mean_prediction": 52.4542,
+  "drift_detected": true,
+  "alerts": [
+    {
+      "feature": "constituency_population",
+      "train_mean": 300613.76,
+      "live_mean": 601055.25,
+      "shift": 300441.49,
+      "threshold": 94684.34,
+      "status": "ALERT"
+    },
+    {
+      "feature": "candidates_count",
+      "train_mean": 9.92,
+      "live_mean": 19.25,
+      "shift": 9.33,
+      "threshold": 2.21,
+      "status": "ALERT"
+    }
+  ]
+}

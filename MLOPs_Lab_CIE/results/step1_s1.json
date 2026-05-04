@@ -1,0 +1,22 @@
+{
+  "experiment_name": "ballotcast-voter-turnout-pct",
+  "models": [
+    {
+      "name": "LinearRegression",
+      "mae": 3.1489,
+      "rmse": 4.9775,
+      "r2": 0.5112,
+      "mape": 6.4386
+    },
+    {
+      "name": "RandomForest",
+      "mae": 3.2624,
+      "rmse": 4.3307,
+      "r2": 0.63,
+      "mape": 6.1272
+    }
+  ],
+  "best_model": "RandomForest",
+  "best_metric_name": "rmse",
+  "best_metric_value": 4.3307
+}

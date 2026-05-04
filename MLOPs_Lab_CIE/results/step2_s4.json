@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/ping",
+  "predict_endpoint": "/estimate",
+  "port": 8500,
+  "health_response": {
+    "status": "operational",
+    "service": "BallotCast API"
+  },
+  "test_input": {
+    "constituency_population": 326365,
+    "candidates_count": 9,
+    "literacy_rate": 76.6,
+    "is_urban": 0
+  },
+  "prediction": 57.5101
+}
